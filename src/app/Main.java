@@ -16,10 +16,7 @@ public class Main {
 				System.out.println(i);
 			} catch (Exception ex) {
 				System.out.println(ex);
-				System.out.println("MJJJJJJJJJJJJJJj");
-				
-				
-				
+								
 			}
 
 		}
