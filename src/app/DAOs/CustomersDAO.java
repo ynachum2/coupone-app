@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 
 public interface CustomersDAO {
-    public boolean isCustomerExists (String email, String password) throws SQLException,DaoException, DBExceptions, SQLException ;
+    public boolean isCustomerExists (String email, String password) throws SQLException,DaoException, DBExceptions ;
     public void addCustomer (Customer customer) throws SQLException, DaoException ,DBExceptions;
     public void updateCustomer(Customer customer) throws SQLException, DaoException, DBExceptions ;
     public void deleteCustomer (int customerID) throws SQLException, DaoException, DBExceptions ;
